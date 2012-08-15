@@ -1,4 +1,4 @@
-#!/usr/bin/python
+
 #
 # Copyright (C) 2008 Google Inc.
 #

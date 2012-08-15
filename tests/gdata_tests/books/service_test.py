@@ -1,4 +1,4 @@
-#!/usr/bin/python
+
 
 __author__ = "James Sams <sams.james@gmail.com>"
 

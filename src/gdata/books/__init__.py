@@ -1,4 +1,4 @@
-#!/usr/bin/python
+
 
 """
     Data Models for books.service
