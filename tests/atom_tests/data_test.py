@@ -662,7 +662,7 @@ class PreserveUnkownElementTest(unittest.TestCase):
   def setUp(self):
     GBASE_ATTRIBUTE_FEED = """<?xml version='1.0' encoding='UTF-8'?>
         <feed xmlns='http://www.w3.org/2005/Atom'
-              xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+              xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/'
               xmlns:gm='http://base.google.com/ns-metadata/1.0'>
           <id>http://www.google.com/base/feeds/attributes</id>
           <updated>2006-11-01T20:35:59.578Z</updated>
@@ -707,13 +707,13 @@ class PreserveUnkownElementTest(unittest.TestCase):
     self.assertEquals(self.feed.FindExtensions('totalResults')[0].tag,
         'totalResults')
     self.assertEquals(self.feed.FindExtensions('totalResults')[0].namespace,
-        'http://a9.com/-/spec/opensearchrss/1.0/')
+        'http://a9.com/-/spec/opensearch/1.1/')
     open_search_extensions = self.feed.FindExtensions(
-        namespace='http://a9.com/-/spec/opensearchrss/1.0/')
+        namespace='http://a9.com/-/spec/opensearch/1.1/')
     self.assertEquals(len(open_search_extensions), 3)
     for element in open_search_extensions:
       self.assertEquals(element.namespace, 
-          'http://a9.com/-/spec/opensearchrss/1.0/')
+          'http://a9.com/-/spec/opensearch/1.1/')
 
   def testCaptureMetaElements(self):
     meta_elements = self.feed.entry[0].FindExtensions(

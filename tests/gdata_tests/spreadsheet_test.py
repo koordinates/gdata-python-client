@@ -27,7 +27,7 @@ import gdata
 import gdata.spreadsheet
 
 SPREADSHEETS_FEED = """<feed xmlns="http://www.w3.org/2005/Atom"
-    xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/"
+    xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/"
     xmlns:gs="http://schemas.google.com/spreadsheets/2006">
   <id>http://spreadsheets.google.com/feeds/spreadsheets/private/full</id>
   <updated>2006-11-17T18:23:45.173Z</updated>
@@ -67,7 +67,7 @@ SPREADSHEETS_FEED = """<feed xmlns="http://www.w3.org/2005/Atom"
 """
 
 WORKSHEETS_FEED = """<feed xmlns="http://www.w3.org/2005/Atom"
-    xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/"
+    xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/"
     xmlns:gs="http://schemas.google.com/spreadsheets/2006">
   <id>http://spreadsheets.google.com/feeds/worksheets/key/private/full</id>
   <updated>2006-11-17T18:23:45.173Z</updated>
@@ -106,7 +106,7 @@ WORKSHEETS_FEED = """<feed xmlns="http://www.w3.org/2005/Atom"
 """
 
 CELLS_FEED = """<feed xmlns="http://www.w3.org/2005/Atom"
-    xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/"
+    xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/"
     xmlns:gs="http://schemas.google.com/spreadsheets/2006">
   <id>http://spreadsheets.google.com/feeds/cells/key/od6/private/full</id>
   <updated>2006-11-17T18:27:32.543Z</updated>
@@ -157,7 +157,7 @@ CELLS_FEED = """<feed xmlns="http://www.w3.org/2005/Atom"
 """
 
 LIST_FEED = """<feed xmlns="http://www.w3.org/2005/Atom"
-    xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/"
+    xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/"
     xmlns:gsx="http://schemas.google.com/spreadsheets/2006/extended">
   <id>http://spreadsheets.google.com/feeds/list/key/od6/private/full</id>
   <updated>2006-11-17T18:23:45.173Z</updated>

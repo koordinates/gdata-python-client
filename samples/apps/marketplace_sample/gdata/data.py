@@ -35,7 +35,7 @@ import atom.data
 
 GDATA_TEMPLATE = '{http://schemas.google.com/g/2005}%s'
 GD_TEMPLATE = GDATA_TEMPLATE
-OPENSEARCH_TEMPLATE_V1 = '{http://a9.com/-/spec/opensearchrss/1.0/}%s'
+OPENSEARCH_TEMPLATE_V1 = '{http://a9.com/-/spec/opensearch/1.1/}%s'
 OPENSEARCH_TEMPLATE_V2 = '{http://a9.com/-/spec/opensearch/1.1/}%s'
 BATCH_TEMPLATE = '{http://schemas.google.com/gdata/batch}%s'
 

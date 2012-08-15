@@ -40,8 +40,8 @@ except ImportError:
 # XML namespaces which are often used in GData entities.
 GDATA_NAMESPACE = 'http://schemas.google.com/g/2005'
 GDATA_TEMPLATE = '{http://schemas.google.com/g/2005}%s'
-OPENSEARCH_NAMESPACE = 'http://a9.com/-/spec/opensearchrss/1.0/'
-OPENSEARCH_TEMPLATE = '{http://a9.com/-/spec/opensearchrss/1.0/}%s'
+OPENSEARCH_NAMESPACE = 'http://a9.com/-/spec/opensearch/1.1/'
+OPENSEARCH_TEMPLATE = '{http://a9.com/-/spec/opensearch/1.1/}%s'
 BATCH_NAMESPACE = 'http://schemas.google.com/gdata/batch'
 GACL_NAMESPACE = 'http://schemas.google.com/acl/2007'
 GACL_TEMPLATE = '{http://schemas.google.com/acl/2007}%s'

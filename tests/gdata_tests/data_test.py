@@ -171,9 +171,9 @@ class GDataFeedTest(unittest.TestCase):
     test_feed = parse(test_data.GBASE_FEED, gdata.data.GDFeed)
     self.assert_(test_feed.total_results is not None)
     self.assert_(test_feed.get_elements('totalResults', 
-        'http://a9.com/-/spec/opensearchrss/1.0/') is not None)
+        'http://a9.com/-/spec/opensearch/1.1/') is not None)
     self.assert_(len(test_feed.get_elements('totalResults',
-        'http://a9.com/-/spec/opensearchrss/1.0/')) > 0)
+        'http://a9.com/-/spec/opensearch/1.1/')) > 0)
 
   def testAllowsEmptyId(self):
     feed = gdata.data.GDFeed()
@@ -501,7 +501,7 @@ class DataClassSanityTest(unittest.TestCase):
   def test_member_values(self):
     self.assertEqual(
         gdata.data.TotalResults._qname,
-        ('{http://a9.com/-/spec/opensearchrss/1.0/}totalResults', 
+        ('{http://a9.com/-/spec/opensearch/1.1/}totalResults', 
          '{http://a9.com/-/spec/opensearch/1.1/}totalResults'))
     self.assertEqual(
         gdata.data.RecurrenceException._qname,

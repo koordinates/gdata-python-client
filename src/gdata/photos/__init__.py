@@ -58,7 +58,7 @@ import gdata.media as Media, gdata.exif as Exif, gdata.geo as Geo
 PHOTOS_NAMESPACE = 'http://schemas.google.com/photos/2007'
 MEDIA_NAMESPACE = 'http://search.yahoo.com/mrss/'
 EXIF_NAMESPACE = 'http://schemas.google.com/photos/exif/2007'
-OPENSEARCH_NAMESPACE = 'http://a9.com/-/spec/opensearchrss/1.0/'
+OPENSEARCH_NAMESPACE = 'http://a9.com/-/spec/opensearch/1.1/'
 GEO_NAMESPACE = 'http://www.w3.org/2003/01/geo/wgs84_pos#'
 GML_NAMESPACE = 'http://www.opengis.net/gml'
 GEORSS_NAMESPACE = 'http://www.georss.org/georss'

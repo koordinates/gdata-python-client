@@ -126,7 +126,7 @@ SMALL_FEED = """<?xml version="1.0" encoding="utf-8"?>
 """
 
 GBASE_FEED = """<?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:g='http://base.google.com/ns/1.0' xmlns:batch='http://schemas.google.com/gdata/batch'>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:g='http://base.google.com/ns/1.0' xmlns:batch='http://schemas.google.com/gdata/batch'>
 <id>http://www.google.com/base/feeds/snippets</id>
 <updated>2007-02-08T23:18:21.935Z</updated>
 <title type='text'>Items matching query: digital camera</title>
@@ -272,7 +272,7 @@ TEST_GBASE_ATTRIBUTE = """<?xml version="1.0" encoding="utf-8"?>
 
 CALENDAR_FEED = """<?xml version='1.0' encoding='utf-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom'
-xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/'
 xmlns:gd='http://schemas.google.com/g/2005'
 xmlns:gCal='http://schemas.google.com/gCal/2005'>
   <id>http://www.google.com/calendar/feeds/default</id>
@@ -341,7 +341,7 @@ xmlns:gCal='http://schemas.google.com/gCal/2005'>
 
 CALENDAR_FULL_EVENT_FEED = """<?xml version='1.0' encoding='utf-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom'
-xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/'
 xmlns:gd='http://schemas.google.com/g/2005'
 xmlns:gCal='http://schemas.google.com/gCal/2005'>
   <id>
@@ -961,7 +961,7 @@ CALENDAR_BATCH_RESPONSE = """<?xml version='1.0' encoding='UTF-8'?>
 """
 
 GBASE_ATTRIBUTE_FEED = """<?xml version='1.0' encoding='UTF-8'?>
-    <feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gm='http://base.google.com/ns-metadata/1.0'>
+    <feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gm='http://base.google.com/ns-metadata/1.0'>
       <id>http://www.google.com/base/feeds/attributes</id>
       <updated>2006-11-01T20:35:59.578Z</updated>
       <category scheme='http://base.google.com/categories/itemtypes' term='online jobs'></category>
@@ -1001,7 +1001,7 @@ GBASE_ATTRIBUTE_FEED = """<?xml version='1.0' encoding='UTF-8'?>
 
 
 GBASE_ATTRIBUTE_ENTRY = """<?xml version='1.0' encoding='UTF-8'?>
- <entry xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gm='http://base.google.com/ns-metadata/1.0'>
+ <entry xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gm='http://base.google.com/ns-metadata/1.0'>
         <id>http://www.google.com/base/feeds/attributes/job+industry%28text%29N%5Bitem+type%3Ajobs%5D</id>
         <updated>2006-11-01T20:36:00.100Z</updated>
         <title type='text'>job industry(text)</title>
@@ -1025,7 +1025,7 @@ GBASE_ATTRIBUTE_ENTRY = """<?xml version='1.0' encoding='UTF-8'?>
 
 GBASE_LOCALES_FEED = """<?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom'
-      xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+      xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/'
       xmlns:gm='http://base.google.com/ns-metadata/1.0'>
          <id> http://www.google.com/base/feeds/locales/</id>
   <updated>2006-06-13T18:11:40.120Z</updated>
@@ -1113,7 +1113,7 @@ GBASE_STRING_ENCODING_ENTRY = """<?xml version='1.0' encoding='UTF-8'?>
 
 
 RECURRENCE_EXCEPTION_ENTRY = """<entry xmlns='http://www.w3.org/2005/Atom'
-xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/'
 xmlns:gd='http://schemas.google.com/g/2005'
 xmlns:gCal='http://schemas.google.com/gCal/2005'>
     <id>
@@ -1232,7 +1232,7 @@ NICK_ENTRY = """<?xml version="1.0" encoding="UTF-8"?>
 
 NICK_FEED = """<?xml version="1.0" encoding="UTF-8"?>
 <atom:feed xmlns:atom="http://www.w3.org/2005/Atom"
-  xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/"
+  xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/"
   xmlns:apps="http://schemas.google.com/apps/2006">
   <atom:id>
     http://apps-apis.google.com/a/feeds/example.com/nickname/2.0
@@ -1307,7 +1307,7 @@ USER_ENTRY = """<?xml version="1.0" encoding="UTF-8"?>
 USER_FEED = """<?xml version="1.0" encoding="UTF-8"?>
 <atom:feed xmlns:atom="http://www.w3.org/2005/Atom" 
   xmlns:apps="http://schemas.google.com/apps/2006"
-  xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/"
+  xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/"
   xmlns:gd="http://schemas.google.com/g/2005">
     <atom:id>
         http://apps-apis.google.com/a/feeds/example.com/user/2.0
@@ -1393,7 +1393,7 @@ EMAIL_LIST_ENTRY = """<?xml version="1.0" encoding="UTF-8"?>
 
 EMAIL_LIST_FEED = """<?xml version="1.0" encoding="UTF-8"?>
 <atom:feed xmlns:atom="http://www.w3.org/2005/Atom" 
-  xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/"
+  xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/"
   xmlns:apps="http://schemas.google.com/apps/2006"
   xmlns:gd="http://schemas.google.com/g/2005">
     <atom:id>
@@ -1466,7 +1466,7 @@ EMAIL_LIST_RECIPIENT_ENTRY = """<?xml version="1.0" encoding="UTF-8"?>
 
 EMAIL_LIST_RECIPIENT_FEED = """<?xml version="1.0" encoding="UTF-8"?>
 <atom:feed xmlns:atom="http://www.w3.org/2005/Atom" 
-  xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/"
+  xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/"
   xmlns:gd="http://schemas.google.com/g/2005">
     <atom:id>
         http://apps-apis.google.com/a/feeds/example.com/emailList/2.0/us-sales/recipient
@@ -1518,7 +1518,7 @@ EMAIL_LIST_RECIPIENT_FEED = """<?xml version="1.0" encoding="UTF-8"?>
 
 ACL_FEED = """<?xml version='1.0' encoding='UTF-8'?>
   <feed xmlns='http://www.w3.org/2005/Atom'
-      xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+      xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/'
       xmlns:gAcl='http://schemas.google.com/acl/2007'>
     <id>http://www.google.com/calendar/feeds/liz%40gmail.com/acl/full</id>
     <updated>2007-04-21T00:52:04.000Z</updated>
@@ -1589,7 +1589,7 @@ ACL_FEED = """<?xml version='1.0' encoding='UTF-8'?>
   </feed>"""
 
 ACL_ENTRY = """<?xml version='1.0' encoding='UTF-8'?>
-  <entry xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gd='http://schemas.google.com/g/2005' xmlns:gCal='http://schemas.google.com/gCal/2005' xmlns:gAcl='http://schemas.google.com/acl/2007'>
+  <entry xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gd='http://schemas.google.com/g/2005' xmlns:gCal='http://schemas.google.com/gCal/2005' xmlns:gAcl='http://schemas.google.com/acl/2007'>
     <id>http://www.google.com/calendar/feeds/liz%40gmail.com/acl/full/user%3Aliz%40gmail.com</id>
     <updated>2007-04-21T00:52:04.000Z</updated>
     <category scheme='http://schemas.google.com/g/2005#kind'
@@ -1614,8 +1614,8 @@ ACL_ENTRY = """<?xml version='1.0' encoding='UTF-8'?>
 
 DOCUMENT_LIST_FEED = """<?xml version='1.0' encoding='UTF-8'?>
 <ns0:feed xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns2="http://schemas.google.com/g/2005" xmlns:ns3="http://schemas.google.com/docs/2007"><ns1:totalResults
-xmlns:ns1="http://a9.com/-/spec/opensearchrss/1.0/">2</ns1:totalResults><ns1:startIndex
-xmlns:ns1="http://a9.com/-/spec/opensearchrss/1.0/">1</ns1:startIndex><ns0:entry><ns0:content
+xmlns:ns1="http://a9.com/-/spec/opensearch/1.1/">2</ns1:totalResults><ns1:startIndex
+xmlns:ns1="http://a9.com/-/spec/opensearch/1.1/">1</ns1:startIndex><ns0:entry><ns0:content
 src="https://foo.com/fm?fmcmd=102&amp;key=supercalifragilisticexpeadocious"
 type="text/html"
 /><ns0:author><ns0:name>test.user</ns0:name><ns0:email>test.user@gmail.com</ns0:email></ns0:author><ns0:category
@@ -1766,7 +1766,7 @@ DOCUMENT_LIST_ACL_ADDITIONAL_ROLE_ENTRY = """<?xml version='1.0' encoding='UTF-8
 
 
 DOCUMENT_LIST_ACL_FEED = """<?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/"
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/"
          xmlns:gAcl="http://schemas.google.com/acl/2007" 
 	 xmlns:batch="http://schemas.google.com/gdata/batch">
 <id>http://docs.google.com/feeds/acl/private/full/spreadsheet%3ApFrmMi8feTQYCgZpwUQ</id>
@@ -1877,7 +1877,7 @@ BATCH_ENTRY = """<?xml version='1.0' encoding='UTF-8'?>
 BATCH_FEED_REQUEST = """<?xml version="1.0" encoding="UTF-8"?>
 <feed
   xmlns="http://www.w3.org/2005/Atom"
-  xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/"
+  xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/"
   xmlns:g="http://base.google.com/ns/1.0"
   xmlns:batch="http://schemas.google.com/gdata/batch">
   <title type="text">My Batch Feed</title>
@@ -1908,7 +1908,7 @@ BATCH_FEED_REQUEST = """<?xml version="1.0" encoding="UTF-8"?>
 BATCH_FEED_RESULT = """<?xml version="1.0" encoding="UTF-8"?>
 <feed
   xmlns="http://www.w3.org/2005/Atom"
-  xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/"
+  xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/"
   xmlns:g="http://base.google.com/ns/1.0"
   xmlns:batch="http://schemas.google.com/gdata/batch">
   <id>http://www.google.com/base/feeds/items</id>
@@ -1980,7 +1980,7 @@ BATCH_FEED_RESULT = """<?xml version="1.0" encoding="UTF-8"?>
 </feed>"""
 
 ALBUM_FEED = """<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:exif="http://schemas.google.com/photos/exif/2007" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:gml="http://www.opengis.net/gml" xmlns:georss="http://www.georss.org/georss" xmlns:photo="http://www.pheed.com/pheed/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:batch="http://schemas.google.com/gdata/batch" xmlns:gphoto="http://schemas.google.com/photos/2007">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:exif="http://schemas.google.com/photos/exif/2007" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:gml="http://www.opengis.net/gml" xmlns:georss="http://www.georss.org/georss" xmlns:photo="http://www.pheed.com/pheed/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:batch="http://schemas.google.com/gdata/batch" xmlns:gphoto="http://schemas.google.com/photos/2007">
   <id>http://picasaweb.google.com/data/feed/api/user/sample.user/albumid/1</id>
   <updated>2007-09-21T18:23:05.000Z</updated>
   <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/photos/2007#album"/>
@@ -2108,7 +2108,7 @@ ALBUM_FEED = """<?xml version="1.0" encoding="UTF-8"?>
 </feed>"""
 
 CODE_SEARCH_FEED = """<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:gcs="http://schemas.google.com/codesearch/2006" xml:base="http://www.google.com">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:gcs="http://schemas.google.com/codesearch/2006" xml:base="http://www.google.com">
 <id>http://www.google.com/codesearch/feeds/search?q=malloc</id>
 <updated>2007-12-19T16:08:04Z</updated> 
 <title type="text">Google Code Search</title>
@@ -2260,7 +2260,7 @@ CODE_SEARCH_FEED = """<?xml version="1.0" encoding="UTF-8"?>
 
 </feed>"""
 
-YOUTUBE_VIDEO_FEED = """<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gml='http://www.opengis.net/gml' xmlns:georss='http://www.georss.org/georss' xmlns:media='http://search.yahoo.com/mrss/' xmlns:yt='http://gdata.youtube.com/schemas/2007' xmlns:gd='http://schemas.google.com/g/2005'><id>http://gdata.youtube.com/feeds/api/standardfeeds/top_rated</id><updated>2008-05-14T02:24:07.000-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/><title type='text'>Top Rated</title><logo>http://www.youtube.com/img/pic_youtubelogo_123x63.gif</logo><link rel='alternate' type='text/html' href='http://www.youtube.com/browse?s=tr'/><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/standardfeeds/top_rated'/><link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/standardfeeds/top_rated?start-index=1&amp;max-results=25'/><link rel='next' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/standardfeeds/top_rated?start-index=26&amp;max-results=25'/><author><name>YouTube</name><uri>http://www.youtube.com/</uri></author><generator version='beta' uri='http://gdata.youtube.com/'>YouTube data API</generator><openSearch:totalResults>100</openSearch:totalResults><openSearch:startIndex>1</openSearch:startIndex><openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+YOUTUBE_VIDEO_FEED = """<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gml='http://www.opengis.net/gml' xmlns:georss='http://www.georss.org/georss' xmlns:media='http://search.yahoo.com/mrss/' xmlns:yt='http://gdata.youtube.com/schemas/2007' xmlns:gd='http://schemas.google.com/g/2005'><id>http://gdata.youtube.com/feeds/api/standardfeeds/top_rated</id><updated>2008-05-14T02:24:07.000-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/><title type='text'>Top Rated</title><logo>http://www.youtube.com/img/pic_youtubelogo_123x63.gif</logo><link rel='alternate' type='text/html' href='http://www.youtube.com/browse?s=tr'/><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/standardfeeds/top_rated'/><link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/standardfeeds/top_rated?start-index=1&amp;max-results=25'/><link rel='next' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/standardfeeds/top_rated?start-index=26&amp;max-results=25'/><author><name>YouTube</name><uri>http://www.youtube.com/</uri></author><generator version='beta' uri='http://gdata.youtube.com/'>YouTube data API</generator><openSearch:totalResults>100</openSearch:totalResults><openSearch:startIndex>1</openSearch:startIndex><openSearch:itemsPerPage>25</openSearch:itemsPerPage>
 <entry><id>http://gdata.youtube.com/feeds/api/videos/C71ypXYGho8</id><published>2008-03-20T10:17:27.000-07:00</published><updated>2008-05-14T04:26:37.000-07:00</updated><category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='karyn'/><category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='garcia'/><category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='me'/><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/><category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='boyfriend'/><category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='por'/><category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='te'/><category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='odeio'/><category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='amar'/><category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Music' label='Music'/><title type='text'>Me odeio por te amar - KARYN GARCIA</title><content type='text'>http://www.karyngarcia.com.br</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=C71ypXYGho8'/><link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/C71ypXYGho8/related'/><link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/standardfeeds/top_rated/C71ypXYGho8'/><author><name>TvKarynGarcia</name><uri>http://gdata.youtube.com/feeds/api/users/tvkaryngarcia</uri></author><media:group><media:title type='plain'>Me odeio por te amar - KARYN GARCIA</media:title><media:description type='plain'>http://www.karyngarcia.com.br</media:description><media:keywords>amar, boyfriend, garcia, karyn, me, odeio, por, te</media:keywords><yt:duration seconds='203'/><media:category label='Music' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Music</media:category><media:category label='test111' scheme='http://gdata.youtube.com/schemas/2007/developertags.cat'>test111</media:category><media:category label='test222' scheme='http://gdata.youtube.com/schemas/2007/developertags.cat'>test222</media:category><media:content url='http://www.youtube.com/v/C71ypXYGho8' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='203' yt:format='5'/><media:content url='rtsp://rtsp2.youtube.com/ChoLENy73wIaEQmPhgZ2pXK9CxMYDSANFEgGDA==/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='203' yt:format='1'/><media:content url='rtsp://rtsp2.youtube.com/ChoLENy73wIaEQmPhgZ2pXK9CxMYESARFEgGDA==/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='203' yt:format='6'/><media:player url='http://www.youtube.com/watch?v=C71ypXYGho8'/><media:thumbnail url='http://img.youtube.com/vi/C71ypXYGho8/2.jpg' height='97' width='130' time='00:01:41.500'/><media:thumbnail url='http://img.youtube.com/vi/C71ypXYGho8/1.jpg' height='97' width='130' time='00:00:50.750'/><media:thumbnail url='http://img.youtube.com/vi/C71ypXYGho8/3.jpg' height='97' width='130' time='00:02:32.250'/><media:thumbnail url='http://img.youtube.com/vi/C71ypXYGho8/0.jpg' height='240' width='320' time='00:01:41.500'/></media:group><yt:statistics viewCount='138864' favoriteCount='2474'/><gd:rating min='1' max='5' numRaters='4626' average='4.95'/><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/C71ypXYGho8/comments' countHint='27'/></gd:comments></entry>
 <entry><id>http://gdata.youtube.com/feeds/api/videos/gsVaTyb1tBw</id><published>2008-02-15T04:31:45.000-08:00</published><updated>2008-05-14T05:09:42.000-07:00</updated><category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='extreme'/><category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='cam'/><category scheme='http://gdata.youtube.com/schemas/2007/categories.cat' term='Sports' label='Sports'/><category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='alcala'/><category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='kani'/><category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='helmet'/><category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='campillo'/><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/><category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='pato'/><category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat' term='dirt'/><title type='text'>extreme helmet cam Kani, Keil and Pato</title><content type='text'>trimmed</content><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=gsVaTyb1tBw'/><link rel='http://gdata.youtube.com/schemas/2007#video.responses' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/gsVaTyb1tBw/responses'/><link rel='http://gdata.youtube.com/schemas/2007#video.related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/videos/gsVaTyb1tBw/related'/><link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/standardfeeds/recently_featured/gsVaTyb1tBw'/><author><name>peraltamagic</name><uri>http://gdata.youtube.com/feeds/api/users/peraltamagic</uri></author><media:group><media:title type='plain'>extreme helmet cam Kani, Keil and Pato</media:title><media:description type='plain'>trimmed</media:description><media:keywords>alcala, cam, campillo, dirt, extreme, helmet, kani, pato</media:keywords><yt:duration seconds='31'/><media:category label='Sports' scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>Sports</media:category><media:content url='http://www.youtube.com/v/gsVaTyb1tBw' type='application/x-shockwave-flash' medium='video' isDefault='true' expression='full' duration='31' yt:format='5'/><media:content url='rtsp://rtsp2.youtube.com/ChoLENy73wIaEQkctPUmT1rFghMYDSANFEgGDA==/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='31' yt:format='1'/><media:content url='rtsp://rtsp2.youtube.com/ChoLENy73wIaEQkctPUmT1rFghMYESARFEgGDA==/0/0/0/video.3gp' type='video/3gpp' medium='video' expression='full' duration='31' yt:format='6'/><media:player url='http://www.youtube.com/watch?v=gsVaTyb1tBw'/><media:thumbnail url='http://img.youtube.com/vi/gsVaTyb1tBw/2.jpg' height='97' width='130' time='00:00:15.500'/><media:thumbnail url='http://img.youtube.com/vi/gsVaTyb1tBw/1.jpg' height='97' width='130' time='00:00:07.750'/><media:thumbnail url='http://img.youtube.com/vi/gsVaTyb1tBw/3.jpg' height='97' width='130' time='00:00:23.250'/><media:thumbnail url='http://img.youtube.com/vi/gsVaTyb1tBw/0.jpg' height='240' width='320' time='00:00:15.500'/></media:group><yt:statistics viewCount='489941' favoriteCount='561'/><gd:rating min='1' max='5' numRaters='1255' average='4.11'/><gd:comments><gd:feedLink href='http://gdata.youtube.com/feeds/api/videos/gsVaTyb1tBw/comments' countHint='1116'/></gd:comments></entry>
 </feed>"""
@@ -2405,7 +2405,7 @@ xmlns:app='http://purl.org/atom/app#'>
 </entry>"""
 
 YOUTUBE_COMMENT_FEED = """<?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'><id>http://gdata.youtube.com/feeds/videos/2Idhz9ef5oU/comments</id><updated>2008-05-19T21:45:45.261Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#comment'/><title type='text'>Comments</title><logo>http://www.youtube.com/img/pic_youtubelogo_123x63.gif</logo><link rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/videos/2Idhz9ef5oU'/><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=2Idhz9ef5oU'/><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://gdata.youtube.com/feeds/videos/2Idhz9ef5oU/comments'/><link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/videos/2Idhz9ef5oU/comments?start-index=1&amp;max-results=25'/><author><name>YouTube</name><uri>http://www.youtube.com/</uri></author><generator version='beta' uri='http://gdata.youtube.com/'>YouTube data API</generator><openSearch:totalResults>0</openSearch:totalResults><openSearch:startIndex>1</openSearch:startIndex><openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/'><id>http://gdata.youtube.com/feeds/videos/2Idhz9ef5oU/comments</id><updated>2008-05-19T21:45:45.261Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#comment'/><title type='text'>Comments</title><logo>http://www.youtube.com/img/pic_youtubelogo_123x63.gif</logo><link rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/videos/2Idhz9ef5oU'/><link rel='alternate' type='text/html' href='http://www.youtube.com/watch?v=2Idhz9ef5oU'/><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://gdata.youtube.com/feeds/videos/2Idhz9ef5oU/comments'/><link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/videos/2Idhz9ef5oU/comments?start-index=1&amp;max-results=25'/><author><name>YouTube</name><uri>http://www.youtube.com/</uri></author><generator version='beta' uri='http://gdata.youtube.com/'>YouTube data API</generator><openSearch:totalResults>0</openSearch:totalResults><openSearch:startIndex>1</openSearch:startIndex><openSearch:itemsPerPage>25</openSearch:itemsPerPage>
   <entry>
     <id>http://gdata.youtube.com/feeds/videos/2Idhz9ef5oU/comments/91F809A3DE2EB81B</id>
     <published>2008-02-22T15:27:15.000-08:00</published><updated>2008-02-22T15:27:15.000-08:00</updated>
@@ -2443,7 +2443,7 @@ YOUTUBE_COMMENT_FEED = """<?xml version='1.0' encoding='UTF-8'?>
 
 YOUTUBE_PLAYLIST_FEED = """<?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom'
-    xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' 
+    xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' 
     xmlns:media='http://search.yahoo.com/mrss/' 
     xmlns:yt='http://gdata.youtube.com/schemas/2007' 
     xmlns:gd='http://schemas.google.com/g/2005'>
@@ -2483,7 +2483,7 @@ YOUTUBE_PLAYLIST_FEED = """<?xml version='1.0' encoding='UTF-8'?>
   </entry>              
 </feed>"""
 
-YOUTUBE_PLAYLIST_VIDEO_FEED = """<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gml='http://www.opengis.net/gml' xmlns:georss='http://www.georss.org/georss' xmlns:media='http://search.yahoo.com/mrss/' xmlns:yt='http://gdata.youtube.com/schemas/2007' xmlns:gd='http://schemas.google.com/g/2005'><id>http://gdata.youtube.com/feeds/api/playlists/BCB3BB96DF51B505</id><updated>2008-05-16T12:03:17.000-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlist'/><category scheme='http://gdata.youtube.com/schemas/2007/tags.cat' term='videos'/><category scheme='http://gdata.youtube.com/schemas/2007/tags.cat' term='python'/><title type='text'>Test Playlist</title><subtitle type='text'>Test playlist 1</subtitle><logo>http://www.youtube.com/img/pic_youtubelogo_123x63.gif</logo><link rel='alternate' type='text/html' href='http://www.youtube.com/view_play_list?p=BCB3BB96DF51B505'/><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/playlists/BCB3BB96DF51B505'/><link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/playlists/BCB3BB96DF51B505?start-index=1&amp;max-results=25'/><author><name>gdpython</name><uri>http://gdata.youtube.com/feeds/api/users/gdpython</uri></author><generator version='beta' uri='http://gdata.youtube.com/'>YouTube data API</generator><openSearch:totalResults>1</openSearch:totalResults><openSearch:startIndex>1</openSearch:startIndex><openSearch:itemsPerPage>25</openSearch:itemsPerPage><media:group><media:title type='plain'>Test Playlist</media:title><media:description type='plain'>Test playlist 1</media:description><media:content url='http://www.youtube.com/ep.swf?id=BCB3BB96DF51B505' type='application/x-shockwave-flash' yt:format='5'/></media:group><entry><id>http://gdata.youtube.com/feeds/api/playlists/BCB3BB96DF51B505/B0F29389E537F888</id><updated>2008-05-16T20:54:08.520Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlist'/><title type='text'>Uploading YouTube Videos with the PHP Client Library</title><content type='text'>Jochen Hartmann demonstrates the basics of how to use the PHP Client Library with the YouTube Data API.
+YOUTUBE_PLAYLIST_VIDEO_FEED = """<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gml='http://www.opengis.net/gml' xmlns:georss='http://www.georss.org/georss' xmlns:media='http://search.yahoo.com/mrss/' xmlns:yt='http://gdata.youtube.com/schemas/2007' xmlns:gd='http://schemas.google.com/g/2005'><id>http://gdata.youtube.com/feeds/api/playlists/BCB3BB96DF51B505</id><updated>2008-05-16T12:03:17.000-07:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlist'/><category scheme='http://gdata.youtube.com/schemas/2007/tags.cat' term='videos'/><category scheme='http://gdata.youtube.com/schemas/2007/tags.cat' term='python'/><title type='text'>Test Playlist</title><subtitle type='text'>Test playlist 1</subtitle><logo>http://www.youtube.com/img/pic_youtubelogo_123x63.gif</logo><link rel='alternate' type='text/html' href='http://www.youtube.com/view_play_list?p=BCB3BB96DF51B505'/><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/playlists/BCB3BB96DF51B505'/><link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/api/playlists/BCB3BB96DF51B505?start-index=1&amp;max-results=25'/><author><name>gdpython</name><uri>http://gdata.youtube.com/feeds/api/users/gdpython</uri></author><generator version='beta' uri='http://gdata.youtube.com/'>YouTube data API</generator><openSearch:totalResults>1</openSearch:totalResults><openSearch:startIndex>1</openSearch:startIndex><openSearch:itemsPerPage>25</openSearch:itemsPerPage><media:group><media:title type='plain'>Test Playlist</media:title><media:description type='plain'>Test playlist 1</media:description><media:content url='http://www.youtube.com/ep.swf?id=BCB3BB96DF51B505' type='application/x-shockwave-flash' yt:format='5'/></media:group><entry><id>http://gdata.youtube.com/feeds/api/playlists/BCB3BB96DF51B505/B0F29389E537F888</id><updated>2008-05-16T20:54:08.520Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#playlist'/><title type='text'>Uploading YouTube Videos with the PHP Client Library</title><content type='text'>Jochen Hartmann demonstrates the basics of how to use the PHP Client Library with the YouTube Data API.
 
 PHP Developer's Guide:
 http://code.google.com/apis/youtube/developers_guide_php.html
@@ -2499,7 +2499,7 @@ http://code.google.com/apis/youtube/</media:description><media:keywords>api, dat
 
 YOUTUBE_SUBSCRIPTION_FEED = """<?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom'
-    xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+    xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/'
     xmlns:media='http://search.yahoo.com/mrss/'
     xmlns:yt='http://gdata.youtube.com/schemas/2007'
     xmlns:gd='http://schemas.google.com/g/2005'>
@@ -2551,7 +2551,7 @@ YOUTUBE_SUBSCRIPTION_FEED = """<?xml version='1.0' encoding='UTF-8'?>
 </feed>"""
 
 YOUTUBE_VIDEO_RESPONSE_FEED = """<?xml version='1.0' encoding='UTF-8'?>
-  <feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gml='http://www.opengis.net/gml' xmlns:georss='http://www.georss.org/georss' xmlns:media='http://search.yahoo.com/mrss/' xmlns:yt='http://gdata.youtube.com/schemas/2007' xmlns:gd='http://schemas.google.com/g/2005'>
+  <feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gml='http://www.opengis.net/gml' xmlns:georss='http://www.georss.org/georss' xmlns:media='http://search.yahoo.com/mrss/' xmlns:yt='http://gdata.youtube.com/schemas/2007' xmlns:gd='http://schemas.google.com/g/2005'>
   <id>http://gdata.youtube.com/feeds/videos/2c3q9K4cHzY/responses</id><updated>2008-05-19T22:37:34.076Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#video'/><title type='text'>Videos responses to 'Giant NES controller coffee table'</title><logo>http://www.youtube.com/img/pic_youtubelogo_123x63.gif</logo><link rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/videos/2c3q9K4cHzY'/><link rel='alternate' type='text/html' href='http://www.youtube.com/video_response_view_all?v=2c3q9K4cHzY'/><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://gdata.youtube.com/feeds/videos/2c3q9K4cHzY/responses'/><link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/videos/2c3q9K4cHzY/responses?start-index=1&amp;max-results=25'/><author><name>YouTube</name><uri>http://www.youtube.com/</uri></author><generator version='beta' uri='http://gdata.youtube.com/'>YouTube data API</generator><openSearch:totalResults>8</openSearch:totalResults><openSearch:startIndex>1</openSearch:startIndex><openSearch:itemsPerPage>25</openSearch:itemsPerPage>
     <entry>
       <id>http://gdata.youtube.com/feeds/videos/7b9EnRI9VbY</id><published>2008-03-11T19:08:53.000-07:00</published><updated>2008-05-18T21:33:10.000-07:00</updated>
@@ -2648,7 +2648,7 @@ YOUTUBE_PROFILE = """<?xml version='1.0' encoding='UTF-8'?>
     href='http://gdata.youtube.com/feeds/users/andyland74/uploads' countHint='1'/>
 </entry>"""
 
-YOUTUBE_CONTACTS_FEED = """<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:yt='http://gdata.youtube.com/schemas/2007' xmlns:gd='http://schemas.google.com/g/2005'>
+YOUTUBE_CONTACTS_FEED = """<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:yt='http://gdata.youtube.com/schemas/2007' xmlns:gd='http://schemas.google.com/g/2005'>
   <id>http://gdata.youtube.com/feeds/users/apitestjhartmann/contacts</id><updated>2008-05-16T19:24:34.916Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#friend'/><title type='text'>apitestjhartmann's Contacts</title><logo>http://www.youtube.com/img/pic_youtubelogo_123x63.gif</logo><link rel='alternate' type='text/html' href='http://www.youtube.com/profile_friends?user=apitestjhartmann'/><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://gdata.youtube.com/feeds/users/apitestjhartmann/contacts'/><link rel='http://schemas.google.com/g/2005#post' type='application/atom+xml' href='http://gdata.youtube.com/feeds/users/apitestjhartmann/contacts'/><link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/users/apitestjhartmann/contacts?start-index=1&amp;max-results=25'/><author><name>apitestjhartmann</name><uri>http://gdata.youtube.com/feeds/users/apitestjhartmann</uri></author><generator version='beta' uri='http://gdata.youtube.com/'>YouTube data API</generator><openSearch:totalResults>2</openSearch:totalResults><openSearch:startIndex>1</openSearch:startIndex><openSearch:itemsPerPage>25</openSearch:itemsPerPage>
     <entry>
       <id>http://gdata.youtube.com/feeds/users/apitestjhartmann/contacts/test89899090</id><published>2008-02-04T11:27:54.000-08:00</published><updated>2008-05-16T19:24:34.916Z</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://gdata.youtube.com/schemas/2007#friend'/><title type='text'>test89899090</title><link rel='related' type='application/atom+xml' href='http://gdata.youtube.com/feeds/users/test89899090'/><link rel='alternate' type='text/html' href='http://www.youtube.com/profile?user=test89899090'/><link rel='self' type='application/atom+xml' href='http://gdata.youtube.com/feeds/users/apitestjhartmann/contacts/test89899090'/><link rel='edit' type='application/atom+xml' href='http://gdata.youtube.com/feeds/users/apitestjhartmann/contacts/test89899090'/><author><name>apitestjhartmann</name><uri>http://gdata.youtube.com/feeds/users/apitestjhartmann</uri></author><yt:username>test89899090</yt:username><yt:status>requested</yt:status></entry>
@@ -2693,7 +2693,7 @@ NEW_CONTACT = """<?xml version='1.0' encoding='UTF-8'?>
 
 CONTACTS_FEED = """<?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom'
-    xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+    xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/'
     xmlns:gd='http://schemas.google.com/g/2005'
     xmlns:gContact='http://schemas.google.com/contact/2008'
     xmlns:batch='http://schemas.google.com/gdata/batch'>
@@ -2751,7 +2751,7 @@ CONTACTS_FEED = """<?xml version='1.0' encoding='UTF-8'?>
 
 CONTACT_GROUPS_FEED = """<?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" 
-  xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" 
+  xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" 
   xmlns:gContact="http://schemas.google.com/contact/2008" 
   xmlns:batch="http://schemas.google.com/gdata/batch" 
   xmlns:gd="http://schemas.google.com/g/2005">
@@ -2821,7 +2821,7 @@ CALENDAR_RESOURCE_ENTRY = """<?xml version="1.0"?>
 </atom:entry>"""
 
 CALENDAR_RESOURCES_FEED = """<?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:apps="http://schemas.google.com/apps/2006">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:apps="http://schemas.google.com/apps/2006">
   <id>https://apps-apis.google.com/a/feeds/calendar/resource/2.0/yourdomain.com</id>
   <updated>2008-10-17T15:29:21.064Z</updated>
   <link rel="next" type="application/atom+xml" href="https://apps-apis.google.com/a/feeds/calendar/resource/2.0/yourdomain.com/?start=the next resourceId"/>
@@ -2939,7 +2939,7 @@ BLOG_POSTS_FEED = """<feed xmlns='http://www.w3.org/2005/Atom'>
   </entry>
 </feed>"""
 
-BLOG_COMMENTS_FEED = """<feed xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/">
+BLOG_COMMENTS_FEED = """<feed xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/">
   <id>tag:blogger.com,1999:blog-blogID.postpostID..comments</id>
   <updated>2007-04-04T21:56:29.803-07:00</updated>
   <title type="text">My Blog : Time to relax</title>
@@ -2974,7 +2974,7 @@ BLOG_COMMENTS_FEED = """<feed xmlns="http://www.w3.org/2005/Atom" xmlns:openSear
 
 
 SITES_FEED = """<feed xmlns="http://www.w3.org/2005/Atom"
-  xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/"
+  xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/"
   xmlns:gd="http://schemas.google.com/g/2005"
   xmlns:wt="http://schemas.google.com/webmasters/tools/2007">
   <id>https://www.google.com/webmasters/tools/feeds/sites</id>
@@ -3087,7 +3087,7 @@ HEALTH_CCR_NOTICE_PAYLOAD = """<ContinuityOfCareRecord xmlns="urn:astm-org:CCR">
 </ContinuityOfCareRecord>"""
 
 HEALTH_PROFILE_ENTRY_DIGEST = """<?xml version="1.0" encoding="UTF-8"?>
-<entry xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:ccr="urn:astm-org:CCR" xmlns:batch="http://schemas.google.com/gdata/batch" xmlns:h9m="http://schemas.google.com/health/metadata">
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:ccr="urn:astm-org:CCR" xmlns:batch="http://schemas.google.com/gdata/batch" xmlns:h9m="http://schemas.google.com/health/metadata">
   <id>https://www.google.com/health/feeds/profile/default/vneCn5qdEIY_digest</id>
   <updated>2008-09-29T07:52:17.176Z</updated>
   <category scheme="http://schemas.google.com/g/2005#kind" term="http://schemas.google.com/health/kinds#profile" />
@@ -3644,7 +3644,7 @@ HEALTH_PROFILE_ENTRY_DIGEST = """<?xml version="1.0" encoding="UTF-8"?>
   </ContinuityOfCareRecord>
 </entry>"""
 
-HEALTH_PROFILE_FEED = """<feed xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/"
+HEALTH_PROFILE_FEED = """<feed xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/"
 xmlns:ccr="urn:astm-org:CCR" xmlns:batch="http://schemas.google.com/gdata/batch" xmlns:h9m="http://schemas.google.com/health/metadata">
 <id>https://www.google.com/health/feeds/profile/default</id>
 <updated>2008-09-30T01:07:17.888Z</updated>
@@ -4594,7 +4594,7 @@ xmlns:ccr="urn:astm-org:CCR" xmlns:batch="http://schemas.google.com/gdata/batch"
 </feed>"""
 
 HEALTH_PROFILE_LIST_ENTRY = """ <entry xmlns='http://www.w3.org/2005/Atom'
-xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'>
+xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/'>
   <id>
   https://www.google.com/health/feeds/profile/list/vndCn5sdfwdEIY</id>
   <updated>1970-01-01T00:00:00.000Z</updated>
@@ -4637,7 +4637,7 @@ BOOK_ENTRY = """<?xml version='1.0' encoding='UTF-8'?>"""\
 """</entry>"""
 
 BOOK_FEED = """<?xml version='1.0' encoding='UTF-8'?>"""\
-    """<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gbs='http://schemas.google.com/books/2008' xmlns:dc='http://purl.org/dc/terms' xmlns:gd='http://schemas.google.com/g/2005'>"""\
+    """<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gbs='http://schemas.google.com/books/2008' xmlns:dc='http://purl.org/dc/terms' xmlns:gd='http://schemas.google.com/g/2005'>"""\
     """<id>http://www.google.com/books/feeds/volumes</id>"""\
     """<updated>2009-04-24T23:39:47.000Z</updated>"""\
     """<category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/books/2008#volume'/>"""\
@@ -5328,7 +5328,7 @@ SITES_ACL_FEED = '''
 </feed>'''
 
 ANALYTICS_ACCOUNT_FEED_old = '''
-<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:dxp='http://schemas.google.com/analytics/2009'>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:dxp='http://schemas.google.com/analytics/2009'>
 <id>http://www.google.com/analytics/feeds/accounts/abc@test.com</id>
 <updated>2009-06-25T03:55:22.000-07:00</updated>
 <title type='text'>Profile list for abc@test.com</title>
@@ -5402,7 +5402,7 @@ ANALYTICS_ACCOUNT_FEED = '''
 </feed>'''
 
 ANALYTICS_DATA_FEED = '''
-<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:dxp='http://schemas.google.com/analytics/2009'>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:dxp='http://schemas.google.com/analytics/2009'>
   <id>http://www.google.com/analytics/feeds/data?ids=ga:1174&amp;dimensions=ga:medium,ga:source&amp;metrics=ga:bounces,ga:visits&amp;filters=ga:medium%3D%3Dreferral&amp;start-date=2008-10-01&amp;end-date=2008-10-31</id>
   <updated>2008-10-31T16:59:59.999-07:00</updated>
   <title type='text'>Google Analytics Data for Profile 1174</title>
@@ -5446,7 +5446,7 @@ ANALYTICS_DATA_FEED = '''
 
 
 ANALYTICS_MGMT_PROFILE_FEED = '''
-<feed xmlns='http://www.w3.org/2005/Atom' xmlns:dxp='http://schemas.google.com/analytics/2009' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gd='http://schemas.google.com/g/2005' gd:kind='analytics#profiles'>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:dxp='http://schemas.google.com/analytics/2009' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gd='http://schemas.google.com/g/2005' gd:kind='analytics#profiles'>
   <id>https://www.google.com/analytics/feeds/datasources/ga/accounts/~all/webproperties/~all/profiles</id>
   <updated>2010-06-14T22:18:48.676Z</updated>
   <title type='text'>Google Analytics Profiles for superman@gmail.com</title>
@@ -5477,7 +5477,7 @@ ANALYTICS_MGMT_PROFILE_FEED = '''
 '''
 
 ANALYTICS_MGMT_GOAL_FEED = '''
-<feed xmlns='http://www.w3.org/2005/Atom' xmlns:dxp='http://schemas.google.com/analytics/2009' xmlns:ga='http://schemas.google.com/ga/2009' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gd='http://schemas.google.com/g/2005' gd:kind='analytics#goals'>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:dxp='http://schemas.google.com/analytics/2009' xmlns:ga='http://schemas.google.com/ga/2009' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gd='http://schemas.google.com/g/2005' gd:kind='analytics#goals'>
   <id>https://www.google.com/analytics/feeds/datasources/ga/accounts/~all/webproperties/~all/profiles/~all/goals</id>
   <updated>2010-06-14T22:21:18.485Z</updated>
   <title type='text'>Google Analytics Goals for superman@gmail.com</title>
@@ -5517,7 +5517,7 @@ ANALYTICS_MGMT_GOAL_FEED = '''
 '''
 
 ANALYTICS_MGMT_ADV_SEGMENT_FEED = '''
-<feed xmlns='http://www.w3.org/2005/Atom' xmlns:dxp='http://schemas.google.com/analytics/2009' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:gd='http://schemas.google.com/g/2005' gd:kind='analytics#segments'>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:dxp='http://schemas.google.com/analytics/2009' xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/' xmlns:gd='http://schemas.google.com/g/2005' gd:kind='analytics#segments'>
   <id>https://www.google.com/analytics/feeds/datasources/ga/segments</id>
   <updated>2010-06-14T22:22:02.728Z</updated>
   <title type='text'>Google Analytics Advanced Segments for superman@gmail.com</title>
@@ -5613,7 +5613,7 @@ MULTIDOMAIN_ALIAS_ENTRY = """<?xml version='1.0' encoding='UTF-8'?>
 </entry>"""
 
 MULTIDOMAIN_ALIAS_FEED = """<?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:apps="http://schemas.google.com/apps/2006">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:apps="http://schemas.google.com/apps/2006">
   <id>https://apps-apis.google.com/a/feeds/alias/2.0/gethelp_example.com</id>
   <updated>2010-01-26T23:38:13.215Z</updated>
   <link rel="http://schemas.google.com/g/2005#feed"
@@ -5665,7 +5665,7 @@ USER_FEED1 = """<?xml version='1.0' encoding='utf-8'?>
   term="http://schemas.google.com/apps/2006#user" />
   <ns0:id>
   https://apps-apis.google.com/a/feeds/srkapps.com/user/2.0</ns0:id>
-  <ns1:startIndex xmlns:ns1="http://a9.com/-/spec/opensearchrss/1.0/">
+  <ns1:startIndex xmlns:ns1="http://a9.com/-/spec/opensearch/1.1/">
   1</ns1:startIndex>
   <ns0:title type="text">Users</ns0:title>
   <ns0:link href="https://apps-apis.google.com/a/feeds/srkapps.com/user/2.0"
@@ -5753,7 +5753,7 @@ xmlns:apps='http://schemas.google.com/apps/2006'>
 
 NICKNAME_FEED = """<?xml version='1.0' encoding='utf-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom'
-xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/'
 xmlns:apps='http://schemas.google.com/apps/2006'>
   <id>
   https://apps-apis.google.com/a/feeds/srkapps.net/nickname/2.0</id>
@@ -5819,7 +5819,7 @@ xmlns:apps='http://schemas.google.com/apps/2006'>
 
 GROUP_FEED= """<?xml version='1.0' encoding='utf-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom'
-xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/'
 xmlns:apps='http://schemas.google.com/apps/2006'>
   <id>
   http://apps-apis.google.com/a/feeds/group/2.0/srkapps.com</id>
@@ -5880,7 +5880,7 @@ xmlns:apps='http://schemas.google.com/apps/2006'>
 
 GROUP_MEMBER_FEED = """<?xml version='1.0' encoding='utf-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom'
-xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/'
 xmlns:apps='http://schemas.google.com/apps/2006'>
   <id>
   http://apps-apis.google.com/a/feeds/group/2.0/srkapps.com/trial/member</id>
@@ -5957,7 +5957,7 @@ href='https://apps-apis.google.com/a/feeds/orgunit/2.0/C123A456B/Test+Organizati
 
 ORGANIZATION_UNIT_ORGUNIT_FEED = """<?xml version='1.0' encoding='utf-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom'
-xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/'
 xmlns:apps='http://schemas.google.com/apps/2006'>
 <id>https://apps-apis.google.com/a/feeds/orgunit/2.0/C123A456B</id>
 <updated>2011-11-21T13:47:12.551Z</updated>
@@ -6020,7 +6020,7 @@ href='https://apps-apis.google.com/a/feeds/orguser/2.0/C123A456B/admin%40example
 
 ORGANIZATION_UNIT_ORGUSER_FEED = """<?xml version='1.0' encoding='utf-8'?>
 <feed xmlns='http://www.w3.org/2005/Atom'
-xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+xmlns:openSearch='http://a9.com/-/spec/opensearch/1.1/'
 xmlns:apps='http://schemas.google.com/apps/2006'>
 <id>https://apps-apis.google.com/a/feeds/orguser/2.0/C123A456B</id>
 <updated>2011-11-21T14:10:48.206Z</updated>

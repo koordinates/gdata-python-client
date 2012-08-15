@@ -106,7 +106,7 @@ class GDataFeedTest(unittest.TestCase):
     element_tree = test_feed._ToElementTree()
     feed = element_tree.find('{http://www.w3.org/2005/Atom}feed')
     self.assert_(element_tree.find(
-        '{http://a9.com/-/spec/opensearchrss/1.0/}totalResults') is not None)
+        '{http://a9.com/-/spec/opensearch/1.1/}totalResults') is not None)
 
   def testAllowsEmptyId(self):
     feed = gdata.GDataFeed()
