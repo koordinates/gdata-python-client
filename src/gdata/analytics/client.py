@@ -106,14 +106,14 @@ class AnalyticsClient(gdata.client.GDClient):
 
 class AnalyticsBaseQuery(gdata.client.GDQuery):
   """Abstracts common configuration across all query objects.
-  
+
   Attributes:
     scheme: string The default scheme. Should always be https.
     host: string The default host.
   """
 
   scheme = 'https'
-  host = 'www.google.com'
+  host = 'www.googleapis.com'
 
 
 class AccountFeedQuery(AnalyticsBaseQuery):
@@ -176,7 +176,7 @@ class AccountQuery(AnalyticsBaseQuery):
     query: dict (optional) A dictionary of query parameters.
   """
 
-  path = '/analytics/feeds/datasources/ga/accounts'
+  path = '/analytics/v2.4/management/accounts'
 
   def __init__(self, query={}, **kwargs):
     self.query = query
@@ -209,8 +209,7 @@ class WebPropertyQuery(AnalyticsBaseQuery):
   @property
   def path(self):
     """Wrapper for path attribute."""
-    return ('/analytics/feeds/datasources/ga/accounts/%s/webproperties' %
-        self.acct_id)
+    return ('/analytics/v2.4/management/accounts/%s/webproperties' % self.acct_id)
 
 
 class ProfileQuery(AnalyticsBaseQuery):
@@ -245,8 +244,7 @@ class ProfileQuery(AnalyticsBaseQuery):
   @property
   def path(self):
     """Wrapper for path attribute."""
-    return ('/analytics/feeds/datasources/ga/accounts/%s/webproperties'
-        '/%s/profiles' % (self.acct_id, self.web_prop_id))
+    return ('/analytics/v2.4/management/accounts/%s/webproperties/%s/profiles' % (self.acct_id, self.web_prop_id))
 
 
 class GoalQuery(AnalyticsBaseQuery):
